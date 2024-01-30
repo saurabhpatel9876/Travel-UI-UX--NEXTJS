@@ -32,16 +32,16 @@ const Header = () => {
           <Link className="text-black  hover:bg-gray-600 hover:text-white rounded-xl p-1  " href="/">
             Home
           </Link>
-          <Link className="text-black hover:bg-gray-600 hover:text-white rounded-xl p-1" href="/about">
+          <Link className="text-black hover:bg-gray-600 hover:text-white rounded-xl p-1" href="/">
             How HiSAURABH work?
           </Link>
-          <Link className="text-black hover:bg-gray-600 hover:text-white rounded-xl p-1" href="/contact">
+          <Link className="text-black hover:bg-gray-600 hover:text-white rounded-xl p-1" href="/">
            Services
           </Link>
-          <Link className="text-black hover:bg-gray-600 hover:text-white rounded-xl p-1" href="/contact">
+          <Link className="text-black hover:bg-gray-600 hover:text-white rounded-xl p-1" href="/">
            Pricing
           </Link>
-          <Link className="text-black hover:bg-gray-600 hover:text-white rounded-xl p-1" href="/contact">
+          <Link className="text-black hover:bg-gray-600 hover:text-white rounded-xl p-1" href="/">
            Contact Us
           </Link>
           <button className="block text-white bg-black rounded-xl p-1 hover:bg-gray-600" >
@@ -51,20 +51,20 @@ const Header = () => {
 
         {/* Responsive Navbar links */}
         {isOpen && (
-          <div className="lg:hidden absolute top-16 left-0 right-0  p-4">
-            <Link  className="block text-black mb-2 hover:bg-gray-600 hover:text-white rounded-xl p-1" href="/">
+          <div className="lg:hidden absolute top-16 left-0 right-0  p-4 bg-black  ">
+            <Link  className=" block text-white mb-2 hover:bg-gray-600 hover:text-white rounded-xl p-1" href="/">
               home
             </Link>
-            <Link className="block text-black mb-2 hover:bg-gray-600 hover:text-white rounded-xl p-1" href="/about">
+            <Link className="block text-white mb-2 hover:bg-gray-600 hover:text-white rounded-xl p-1" href="/">
             How HiSAURABH work?
             </Link>
-            <Link className="block text-black hover:bg-gray-600 hover:text-white rounded-xl p-1" href="/contact">
+            <Link className="block text-white hover:bg-gray-600 hover:text-white rounded-xl p-1" href="/">
             Services
             </Link>
-            <Link className="block text-black hover:bg-gray-600 hover:text-white rounded-xl p-1" href="/contact">
+            <Link className="block text-white hover:bg-gray-600 hover:text-white rounded-xl p-1" href="/">
              Pricing 
             </Link>
-            <Link className="block text-black hover:bg-gray-600 hover:text-white rounded-xl p-1" href="/contact">
+            <Link className="block text-white hover:bg-gray-600 hover:text-white rounded-xl p-1" href="/">
              Contact Us
             </Link>
             <button className="block text-white bg-black rounded-xl p-1 hover:bg-gray-700" >
